@@ -1,0 +1,12 @@
+1. Anaconda Prompt 창을 켠다
+2. activate geo_env 입력
+3. jupyter notebook 입력
+4. New > geo_env 파일 생성
+
+
+import geopandas as gpd
+import pandas as pd
+import numpy as np
+import chart_studio.plotly as py
+import cufflinks as cf
+cf.go_offline(connected=True)
